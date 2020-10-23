@@ -12,7 +12,7 @@ namespace mySolution.Templates.Overlay
     {
         public ItemControl()
         {
-            FKControls = new ObservableCollection<FKControl>();
+            mySControls = new ObservableCollection<mySControl>();
 
             D3RenderControl = Activator.CreateInstance<T>();
             D3RenderControl.DataContext = this;
