@@ -1,2 +1,2 @@
-# Testor
+# mySolution
 creative
